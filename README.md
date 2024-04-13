@@ -1,4 +1,4 @@
-#Kod testujący implemetnację struktur danych 
+/h1 Kod testujący implemetnację struktur danych 
 
 Powyższy kod przedstaiwa implementację następujących struktur:
 - Pojedyńczo wiązana lista (SingleLinkedList)
