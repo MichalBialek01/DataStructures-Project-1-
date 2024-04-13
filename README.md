@@ -1,13 +1,6 @@
-# Tablice dynamiczne
-
-W języku c++ możemy stosować różne rodzaje podejść do stosowania tablic dynamicznych. 
-
-1. Przy pomocy operatora new[] i delate[]. Nie jest on bezpieczny, ze względu na bezpieczeństwo, a mianowicie programista możę się pomylić, podczas ręcznego zarządzania pamięcią.
-2. Kożystając z biblioteki STL vector, array, deque. Są one bezpieczne, ponieważ oferują wbudowane metody do manipulacji danymi. 
-3. Wycieki pamięci - analiza valgrind
+#Kod testujący implemetnację struktur danych 
 
 Powyższy kod przedstaiwa implementację następujących struktur:
-
 - Pojedyńczo wiązana lista (SingleLinkedList)
 - Podwójnie wiązana lista (DoubleLinkedList)
 - Tablica Dynamiczna (Dynamic Array)
