@@ -20,11 +20,5 @@ Pierwotnie koncepcyjnie kod powinien testować struktury na następuących typac
 
  int,char,float,double,srting, lecz niestety, z powodu przedłużającego się czasu wyszukiwania problemu związanego z użyciem generychych metod, zredukowano testowane typy do int. 
 
-Na podstawie wyników pomiaru, zostały utworzone wykresy poszczególnych oepracji dla danych struktur danych. Cała wiedza teoretyczna jak i również wykresy pomiarów zostałt zawarte w sprawozdaniu.
-
-
-<object data="[http://yoursite.com/the.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)" type="application/pdf" width="700px" height="700px">
-    <embed src="[http://yoursite.com/the.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="[http://yoursite.com/the.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)">Download PDF</a>.</p>
-    </embed>
-</object>
+Na podstawie wyników pomiaru, zostały utworzone wykresy poszczególnych oepracji dla danych struktur danych. Cała wiedza teoretyczna jak i również wykresy pomiarów zostałt zawarte w sprawozdaniu:
+[Sprawozdanie.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)
