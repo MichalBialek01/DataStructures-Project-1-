@@ -18,7 +18,8 @@ W klasie main znajduje się:
 
 Pierwotnie koncepcyjnie kod powinien testować struktury na następuących typach danych:
 
- int,char,float,double,srting, lecz niestety, z powodu przedłużającego się czasu wyszukiwania problemu związanego z użyciem generychych metod, zredukowano testowane typy do int. 
+ int,char,float,double,srting, lecz niestety, z powodu przedłużającego się czasu wyszukiwania problemu związanego z użyciem generychych metod, zredukowano testowane typy do int.
+ Badania metod struktur, w większości przypadków są obarczone kosztem iteracji pętli for, co sprawia, że wyjścią notacją jest O(n).   
 
 Na podstawie wyników pomiaru, zostały utworzone wykresy poszczególnych oepracji dla danych struktur danych. Cała wiedza teoretyczna jak i również wykresy pomiarów zostałt zawarte w sprawozdaniu:
 [Sprawozdanie.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)
