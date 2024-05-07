@@ -1,25 +1,21 @@
-Kod testujący implemetnację struktur danych 
+## Testing Code for Data Structure Implementation
+The above code represents the implementation of the following data structures:
 
-Powyższy kod przedstaiwa implementację następujących struktur:
-- Pojedyńczo wiązana lista (SingleLinkedList)
-- Podwójnie wiązana lista (DoubleLinkedList)
-- Tablica Dynamiczna (Dynamic Array)
+Singly Linked List (SingleLinkedList)
+Doubly Linked List (DoubleLinkedList)
+Dynamic Array (Dynamic Array)
+In the main class, you will find:
 
-W klasie main znajduje się:
+A runtime menu used to create objects and perform tests for each structure.
+3 methods responsible for testing individual structures:
+testIntSLL - method testing singly linked list
+testIntDLL - method testing doubly linked list
+testDA - method testing dynamic array
+Helper methods:
+printOperationTime - method for printing to the console
+timeCountLogger - method responsible for logging to a CSV file, in the 'data' folder
+Initially, conceptually, the code should test structures on the following data types:
 
-- Menu uruchomieniowe, któr służy do utworzenia obiektów, oraz wykonania testów dla danej struktury.
-- 3 metody których zadaniem jest testowanie poszczególnych struktur:
-    - testIntSLL - metoda testująca pojedynczo wiązaną listę
-    - testIntDLL - metoda testująca podwójnie wiązaną listę
-    - testDA - metoda testująca tablicę dynamiczna
-- metody pomocnicze:
-    - printOperationTime - metoda do drukowania na konsole
-    - timeCountLogger - metoda odpowiedzialna za logowanie do linku csv, w folderze data
+Research on structure methods, in most cases, involves the cost of iterating for loops, resulting in a notation of O(n).
 
-Pierwotnie koncepcyjnie kod powinien testować struktury na następuących typach danych:
-
- int,char,float,double,srting, lecz niestety, z powodu przedłużającego się czasu wyszukiwania problemu związanego z użyciem generychych metod, zredukowano testowane typy do int.
- Badania metod struktur, w większości przypadków są obarczone kosztem iteracji pętli for, co sprawia, że wyjścią notacją jest O(n).   
-
-Na podstawie wyników pomiaru, zostały utworzone wykresy poszczególnych oepracji dla danych struktur danych. Cała wiedza teoretyczna jak i również wykresy pomiarów zostałt zawarte w sprawozdaniu:
-[Sprawozdanie.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)
+Based on the measurement results, charts of individual operations for the given data structures were created. All theoretical knowledge as well as measurement charts are included in the report: [Sprawozdanie.pdf](https://github.com/MichalBialek01/DataStructuresTest/blob/master/DataStructures_report.pdf)
